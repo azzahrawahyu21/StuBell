@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return '<h1>Halo dari controller</h1>';
+        return '<h1>Halo dari controller ni</h1>';
     }
 }
 
