@@ -9,7 +9,9 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return '<h1>Halo dari controller ni</h1>';
+        $nama = 'Zahra';
+        $data = ['namaku' => $nama];
+        return view('StuBell.home', $data);
     }
+    
 }
-

@@ -1,0 +1,23 @@
+body {
+    /* background-color: rebeccapurple; */
+}
+
+.collapse {
+    color: #522B5B !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Menentukan tinggi kontainer */
+    margin-left: 1pt;
+    margin-right: 1pt;
+  }
+  
+img {
+    width: 100%; /* Gambar akan memenuhi lebar kontainer */
+    height: 25vw; /* Tinggi gambar adalah 1/4 dari lebar (1/4 dari viewport width) */
+    object-fit: cover; /* Menjaga gambar tetap memenuhi area tanpa mengubah proporsi gambar */
+}  
